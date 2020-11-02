@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../:\Users\Tongtong\Desktop\UCL CSML\实习\攻关任务\task1_MADDPG\MADDPG\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
