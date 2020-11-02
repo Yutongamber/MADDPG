@@ -1,0 +1,35 @@
+######### requirements #########
+
+baselines: https://github.com/openai/baselines.git
+
+#install
+conda activate + venv
+git clone https://github.com/openai/baselines.git
+cd baselines
+
+‘’‘
+# check interpreter
+import sys
+import os
+import pkg_resources
+from pprint import pprint
+
+
+pprint({
+    'sys.version_info': sys.version_info,
+    'sys.prefix': sys.prefix,
+    'sys.path': sys.path,
+    'pkg_resources.working_set': list(pkg_resources.working_set),
+    'PATH': os.environ['PATH'].split(os.pathsep),
+})
+’‘’
+
+# OR
+pip install baselines
+
+'''
+# if time out --> solution:
+pip --default-timeout=100 install -U + name
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple + name
+'''
